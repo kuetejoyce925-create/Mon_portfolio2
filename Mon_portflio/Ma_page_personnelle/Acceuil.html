@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page de presentation de Joyce KUETE-Etudiante Green Up Academy">
+    <meta name="author" content="Developpemnt web, HTMLL, Pyhthon, Portfolio">
+    <link rel="stylesheet" href="style.css">
+    <title>Ma page web</title>
+ </head>
+ <body>
+    <!-- ==== ENTE DE LA PAGE ==== -->
+    <header>
+        <h1 class="header h1">Joyce KUETE</h1>
+        <P class="header p">Etudiante en Cybersecurité</P>
+        <!-- ==== Navigation principale avec ancres-->
+        <nav>
+            <ul class="puce">
+                <li><a href="#A-propos">A propos</a></li>
+                <li><a href="#Competences">Competences</a></li>
+                <li><a href="#Parcours">Parcours</a></li>
+                <li><a href="#Contact"> Me contacter</a></li>
+            </ul>
+         </nav>
+    </header>
+    <!-- ====CONTENU PRINCIPAL====-->
+    <main>
+        <!--==== SECTON A PROPOS ====-->
+        <section id="A-propos">
+            <h2>A propos de moi</h2>
+            <img id="A-propos" src="Mon_Profil.jpeg" alt="Ma photo d profil" width="300" height="350">
+        
+        <!--==== MA DESCRIPTION ==== -->
+            <p> 
+                Bonjour ! Je m'appelle <strong>Joyce KUETE</strong>, je suis d orgine camerounaise et je reside en France. 
+                Actuellement etudiante en <em>Bachelor1</em><strong> Developpemnt Web</strong> à la 
+                <strong>Green Up Academy</strong> situé à Paris. Pationnée par les techonologies numériques.
+            </p>
+    
+            <p>
+            Mon objectif est de devenir un <strong>developpeur Developpeur Web </strong>
+            capable de créer des applications web modernes, performanctes et accessibles. Je suis particulièrement
+            interessée par le <em>design responsive</em>, l'<em>accessibilité Web</em> 
+            et les <em>interfaces utilisateurs intuitives</em>
+            </p>
+    
+            <p>
+            En dehors du code, j'aime ecouter de la musique, la photographie,les rendonnées en montagne. 
+            Je crois fermement que la diversité des experiences enrichit la créativité dans le developpement web 
+            </p>
+        </section>
+        <section id="Competences">
+            <h2>Mes compétences et centres d'interêt</h2>
+            
+            <article>
+            <h3>Competences techniques</h3>
+                
+                <ul>
+                    <li><strong>HTML5</strong>: Structuration semantique, formulaires, accessibilités</li>
+                    <li><strong>CSS</strong>: Mise en page, GRID, Flexbox, Dessign d'interface</li>
+                    <li><strong>JavaScript</strong>: Bases en programmation</li>
+                    <li><strong>Git& Github</strong>: des versions, travail, collaboratif</li>
+                    <li><strong>Cybersécurité</strong>: Analyse dse données et encryptage/sécurisation</li>
+                    <li><strong>VS Code</strong> : Maitrise de l'editeur et dse extensions</li>
+                </ul>
+            </article>
+            
+            <article>
+            <h3>Competences transversales</h3>
+
+                <ul>
+                    <li>Travail en equipe et en collaboration</li>
+                    <li>Gestion de projets</li>
+                    <li>Resolution dse problemes de debogages</li>
+                    <li>Communication claire et documentation</li>
+                </ul>
+            </article>
+        
+            <article>
+            <h3 id="center">Centre d'interêt</h3>
+                <ul>
+                    <li>photographie</li>
+                    <li>Sport</li>
+                    <li>Design d'ineterface utilisateur</li>
+                </ul>
+            </article>
+        </section>
+    
+        <!--==== SECTION PARCOURS ====-->
+                    
+        <section id="Parcours">
+        
+            <article id="parcours">
+            <h2>Mon Parcours</h2>
+            
+                <ul>
+                    <li>
+                        <strong>Groupe Scolaire Bilingue International KAMGAI (2022-2023)</strong>: 
+                        Obtention de mon <em>Probatoire Scientifique D</em>
+                    </li>
+                    
+                    <li>
+                        <strong>Groupe Scolaire Bilingue International KAMGAI (2023-2024)</strong>: 
+                        Obtention de mon <em>Baccalaureat Scientifique D</em>
+                    </li>
+                    
+                    <li><strong>Institut Superieur des managements de techonologies appliquées ESMATA (2024-2025)</strong>: 
+                        Formation en <em>Genie logiciel</em>. Cette formation m'a permi d'écrire mes tous premiers codes 
+                        <strong>HTML et CSS</strong> en tant qu'étudiante débutante, d'etudier d'autres langages de programmation comme : 
+                        <strong>Python, Javascript, C++, C</strong> ...etc
+                    </li>
+                    
+                    <li><strong>Green Up Academy (2025-2028)</strong>: <em>Bachelor en Cybersécurité</em> 
+                        Cette formation me permettra de dévélopper mes competences afin de sécuriser les données, 
+                        protéger les systèmes informatiques d'une entreprise, d'une organisation ...  
+                    </li>
+                
+                    <li><strong>Ecole 42 :</strong> Visite à lécole 42 au cours de laquelle nous avons decouvert les 
+                        differentes branches qu'elle propose aux etudiantset petits echanges 
+                        avec eux ainsi que des minis formations personnelles que nous avions effectuer 
+                    </li>
+                </ul>
+            </article>
+        </section>
+        
+        <section id="Me contacter">
+        
+            <article id="contact">
+                <p>
+                    Vous souahitez discuter à propos d'un projet, une formation, 
+                    ou tout simplement discuterà propos du Developpment Web ? 
+                    N'hesitez pas à me joindre à travers le formulaire suivant :
+                </p>
+            </article>
+        
+            <form action="Information">
+                <label for="nom" required>Nom complet*</label>
+                <input type="text" placeholder="Nom complet"><br><br>
+                
+                <label for="Email" requiered>Adresse Email*</label>
+                <input type="text" placeholder="Votre.email@gmail.com"><br><br>
+                
+                <label for="Téléphone" requierre>Adresse Téléphonique*</label>
+                <input type="INT" placeholder="0792147916"><br><br>
+            
+                <label for="Sujet">Sujet*</label>
+                <select id="sujet" name="sujet">
+                    <option value="">Autre</option>
+                    <option value="Option1">Option1</option>
+                    <option value="Option2">Option2</option>
+                    <option value="Option3">Option3</option>
+                </select><br><br>
+            
+                <label for="Message">Votre message</label><br>
+                <textarea name="text" id="text" rows="4" cols="40" placeholder="Inserez votre votre demande"></textarea><br><br>
+                
+                <input type="checkbox" id="subscribe" name="subscribe" value="Yes">
+                <label for="subscribe">Recevoir une copie du message</label><br>
+                
+                <input type="checkbox" id="subscribe" name="subscribe" value="Yes">
+                <label for="subscribe">J'accepte que mes données soient utilisées pour me contacter</label><br><br>
+                
+                <button type="submit">Envoyer le message</button>
+                <button type="submit">Reinitialiser</button>
+            </form>
+        
+            <article>
+                <h3>Retrouvez-moi sur :</h3>
+                
+                <ul>
+                    <li><a href="https://github.com/kuetejoyce925-create"> Github: Mes projets de code</a></li>
+                    <li><a href="mailto: Kuetejoyce925@gmail.com">Email direct: Kuetejoyce925@gmail.com</a></li>
+                    <li><a href="Tél: 0792147916">Adresse telephonique: 0792147916</a></li>
+                </ul>
+            </article>
+            
+            <aside id="contacter">
+                <h3>Coordonnées</h3>
+                    
+                    <address>
+                        <strong><em>Joyce KUETE</em></strong><br>
+                        <em>1 Allée des charmilles</em><br>
+                        <em>77420 Champs-sur-Marne</em><br>
+                        <em>France</em><br><br>
+                        <em><a href="mailto: Kuetejoyce925@gmail.com">Email: Kuetejoyce925@gmail.com</a></em><br>
+                        <em><a href="Tél: 0792147916">Tél: 0792147916</a></em>
+                    </address><br></br>
+            
+            </aside>
+        </section>
+    </main>
+        <!-- ==== PIED DE PAGE ==== -->
+
+    <footer>
+       
+        <div class="pieds-de-page">
+            
+            <small>
+                <p>
+                    &copy; 2026 Joyce KUETE. Tout droit reservés <br>
+                    Site créé dans le cadre du cours de Developpment Web - Bachelor 1 <br>
+                    Green Up Academy - Paris <br>
+                </p>     
+            </small>
+                
+            <small>
+                <p>
+                    <a href="#Top" class="green">Retour en haut</a> |
+                    <a href="Mentions légales.html" >Mentions legales</a> |
+                    <a href="Confientialité.html">Politique de confidentialité</a><br>
+                </p>
+            </small>
+                
+            <small>
+                    <p>Dernière mise à jour: 30 Janvier 2026</p>
+            </small>
+        
+        </div>
+    </footer>
+    </body>
+</html>

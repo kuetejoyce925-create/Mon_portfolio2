@@ -1,0 +1,244 @@
+/*---- ENETE DE PAGE -----*/
+header {
+    box-sizing : border-box; 
+    margin : 0; 
+    padding : 0;
+}
+
+
+/*STYLE GLOBAUX DU BODY*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:16px;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+/*TYPOGRAPHIE ET COULEURS*/
+h1{
+    font-size: 2.5em;
+    color: rgb(36, 0, 146);
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 1.8em;
+    color: #000089;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+}
+
+h3{
+    font-size: 1.3em;
+    color : #000089;
+    margin-bottom:20px ;
+    margin-top: 20px;
+    padding-right: 0, 0, 0, 8px;
+}
+
+
+
+a { 
+    color : #000089;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(117, 97, 183);
+}
+
+p{
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/*LIST*/
+
+ul{ 
+    margin-bottom: 15px;
+    
+}
+
+li {
+    margin-bottom: px;
+    padding: 0px;
+
+}
+
+/*TEXT EN GRAS*/
+
+strong { 
+    font-weight: bold;
+    color:#000089;
+}
+
+/*PIEDS DE PAGE*/
+.pieds-de-page { 
+    font-size: 0.85em;
+    color: #ffffff;
+    text-align: center;
+    display:block;
+    margin-top: 20px;
+    padding: 20px ;
+    background-color: #2222a2;
+    
+}
+
+.pieds-de-page a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    text-align: center;
+}
+
+.pieds-de-page a:hover {
+    text-decoration: none;
+    color: rgb(117, 97, 183);
+    text-align: center;
+}
+
+/*HEADER ET NAVIGATION*/
+header { 
+    background-color: rgb(0, 20, 172);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+nav ul { 
+    list-style: none;
+    padding: 0px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 20px;
+    
+}
+
+
+nav a { 
+    color : white;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+nav a :hover { 
+    background-color: rgba(26, 118, 183, 0.3);
+    text-decoration:none;
+    color : white;
+}
+
+/*SECTION DU CONTENU*/
+section { 
+    padding: 40px 40px;
+    max-width:1000px;
+    margin: 0 auto;
+}
+
+section :nth-child(even) {
+    background-color: #eff1ff;
+}
+
+
+
+
+/*IMAGES*/
+#A-propos img {
+    border-radius: 50%;   
+    border: solid 4px #0d00ff;
+    display:block;
+    margin: 0 auto 20px auto;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#parcours {
+    padding: 15px 0;
+    border-bottom: 1px solid #000089; 
+}
+
+#contacter {
+    padding: 0 20px;
+}
+
+/*conteneur du formulaire de contact*/
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px #000089;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    
+} 
+form label {
+
+    font-weight: 300PX;
+    color: #05055a;
+    margin-bottom: 7px;
+}
+
+form input, form textarea {
+    
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #05055a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: #05055a 1px 1px;
+}
+
+/*ASTERIQUES POUR LES CHAMPS OBLIGATOIRES*/
+abbr[tittle] {
+    text-decoration: none;
+    color: red;
+    
+}
+
+/*SAISIE*/
+input [type="texte"], input[type="email"], input [submit], input [checkbox], input [radio] 
+select, 
+textarea  {
+    width: 100%;
+    padding : 10px 12px;
+    color: #ea0a0a;
+}
+
+.formulaire {
+    padding: 20px 0;
+    color: #15d315;   
+}
+
+
+
+

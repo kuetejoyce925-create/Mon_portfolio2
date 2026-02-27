@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="Entete">
+        <div>
+            <h1>Monsieur chat</h1>
+            <p>Developpeur web Junior</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="A propos">A propos</a></li>
+                <li><a href="Compétences">Mes compétences</a></li>
+                <li><a href="Parcours">Mon parcours</a></li>
+                <li><a href="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <img src="img/cat.jpg" alt="Image chat" width="300" height="200">
+        
+        <section id="#A-propos">
+            <h2>A propos de moi</h2>
+            <p>
+                Bonjour ! Je m'appelle Monsieur Chat et je suis actuellement étudiant(e) en <br>
+                Bachelor 1 Développement Web à la Green Up Academy. <br>
+                Passionné(e) par les technologies web, j'apprends à créer des sites modernes, <br>
+                accessibles et responsive.
+            </p>
+            <p>
+                Mon objectif est de maîtriser HTML, CSS et JavaScript pour construire des 
+                interfaces utilisateur soignées et fonctionnelles.
+            </p>
+        </section>
+
+        <section id="#Competences">
+            <h2>Mes compétences</h2>
+                    <div id="grille-competences">
+                        <article>
+                            <h3>🌍 HTML5</h3>
+                            <p>Structure sémantique, balises, formulaires, accessibilité (WCAG)</p>
+                                <ul>
+                                    <li>Balises sémantiques (header, main, section...)</li>
+                                    <li>Formulaire et validation</li>
+                                    <li>Attributs ARIA</li>
+                                </ul>
+                        </article>     
+                        <article>
+                            <h3>🎨 CSS3</h3>   
+                            <p>Mise en page, animations, responsive design, Flexbox.</p>
+                                <ul>
+                                    <li>Sélecteur et spécifié</li>
+                                    <li>Box model</li>
+                                    <li>Flexbox ←(on travail ça aujourd'hui)</li>
+                                </ul>
+                        </article>
+                        <article>
+                            <h3>🛠️ Outils</h3>
+                            <p>Environnement de développement et bonnes pratiques.</p>
+                                <ul>
+                                    <li>Vs Code + extensions</li>
+                                    <li>Git& GitHub (Base)</li>
+                                    <li>Chrome DevTools</li>
+                                </ul>
+                        </article>
+                        <article>
+                            <h3>💡 Méthodologie</h3>
+                            <p>Organisation et qualité du code</p>
+                            <ul>
+                                <li>Validation W3C</li>
+                                <li>Identations et commentaires</li>
+                                <li>Convention et nommage  CSS</li>  
+                            </ul>                 
+                        </article>
+                        <article>
+                            <h3>🚀 En cours</h3>
+                            <p>Compétence en cours d'acquisition</p>
+                                <ul>
+                                    <li>Javascript ES6+</li>
+                                    <li>Responsive Design</li>
+                                    <li>Grid CSS</li>
+                                </ul>
+                        </article>
+                        <article>
+                            <h3>🌱 A venir</h3>
+                            <p>Prochaine étape de mon apprentissage</p>
+                                <ul>
+                                    <li>React.js</li>
+                                    <li>Node.js</li>
+                                    <li>Base de données SQL</li>
+                                </ul>
+                        </article>
+                    </div>
+        </section>
+        <section id="#Mon-parcours">
+            <article>
+                <h3>🎓 Formation actuelle</h3>
+                    <p><strong>Bachelor 1 — Developpemennt web</strong>Green Up Academy, Paris</p>
+                    <p><em>2025 – 2026</em></p>
+                    <p>Programme intensif couvrant HTML5, CSS3, JavaScript, Git et les bases du développement<br>
+                        web moderne.  Projets pratiques chaque semaine.
+                    </p>
+            </article>
+            <article>
+                <h3>🏫 Formation précédente</h3>
+                <p>Baccalaureat serie D  —  Collège Kamgaï</p>
+                <p><em>Obtenu en 2023</em></p>
+            </article>
+            <article>
+                <h2>💼 Expériences</h2>
+                <ol>
+                    <li><strong>Projet personnel (2024)</strong> — site web statique pour une station</li>
+                    <li><strong>Satge découverte (2023)</strong> — Observation en agence web (1 semaaine)</li>
+                </ol>
+            </article>
+        </section>
+        <section id="#contact">
+            <h2>Me contacter</h2>
+            <p>Une question, une opportunité de stage, ou simplement envie d'échanger ?<br> 
+                N'hésitez pas à me contacter via le formulaire ci-dessous.
+            </p>
+
+            <form action="Mon formulaire">
+                <label for="nom" required>Nom complet</label>
+                <input type="text" placeholder="Nom et prenom"><br><br>
+
+                <label for="e-mail" required>Adresse mail</label>
+                <input type="text" placeholder="votre.email@exemple.com"><br><br>
+
+                <label for="sujet">Sujet</label>
+                <select name="sujet" id="sujet">
+                    <option value="Choix">-- choisissez un sujet --</option>
+                    <option value="Option1">Opportunité de stage</option>
+                    <option value="Option2">Propsition de projet</option>
+                </select><br><br>
+
+                <label for="message">Message</label><br><br>
+                <textarea name="message" id="message" required rows="4" cols="40">Votre message...</textarea><br><br><br>
+
+                <input type="checkbox" name="checkbox" id="subscribe" value="yes">
+                <label for="text">J'accepte que mes données soient utilisées pour me contacter</label><br><br><br>
+
+                <button type="submit">Envoyer le message</button>
+                <button type="submit">Reinitialiser</button>
+            </form>
+
+            <article>
+                <h3>Retrouvez-moi sur: </h3>
+                <ul>
+                    <li><a href="https://github.com/kuetejoyce925-create">GitHub</a></li>
+                    <li><a href="mailto: Kuetejoyce925@gmail.com">E-mail direct: kuetejoyce925@gmail.com</a></li>
+                    <li><a href="Telephone">Adresse telephonique: 0792147916</a></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
